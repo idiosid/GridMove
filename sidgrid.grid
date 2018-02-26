@@ -1,0 +1,113 @@
+[Groups]
+ 
+  NumberOfGroups = 10
+ 
+[1]
+
+  TriggerTop    = [Monitor2Top] + [Monitor2Height]*2/3
+  TriggerLeft   = [Monitor2Left]
+  TriggerBottom = [Monitor2Bottom]
+  TriggerRight  = [Monitor2Left] + [Monitor2Width]/3
+  GridTop       = [Monitor2Top] + [Monitor2Height]/2
+  GridLeft      = [Monitor2Left]
+  GridBottom    = [Monitor2Bottom]
+  GridRight     = [Monitor2Left] + [Monitor2Width]/2
+
+[2]
+ 
+  TriggerTop    = [Monitor2Top] + [Monitor2Height]*2/3
+  TriggerLeft   = [Monitor2Left] + [Monitor2Width]/3
+  TriggerBottom = [Monitor2Bottom]
+  TriggerRight  = [Monitor2Left] + [Monitor2Width]*2/3
+  GridTop       = [Monitor2Top] + [Monitor2Height]/2
+  GridLeft      = [Monitor2Left]
+  GridBottom    = [Monitor2Bottom]
+  GridRight     = [Monitor2Right]
+ 
+[3]
+ 
+  TriggerTop    = [Monitor2Top] + [Monitor2Height]*2/3
+  TriggerLeft   = [Monitor2Left] + [Monitor2Width]*2/3
+  TriggerBottom = [Monitor2Bottom]
+  TriggerRight  = [Monitor2Right]
+  GridTop       = [Monitor2Top] + [Monitor2Height]/2
+  GridLeft      = [Monitor2Left] + [Monitor2Width]/2
+  GridBottom    = [Monitor2Bottom]
+  GridRight     = [Monitor2Right]
+
+[4]
+
+  TriggerTop    = [Monitor2Top] + [Monitor2Height]/3
+  TriggerLeft   = [Monitor2Left]
+  TriggerBottom = [Monitor2Top] + [Monitor2Height]*2/3
+  TriggerRight  = [Monitor2Left] + [Monitor2Width]/3
+  GridTop       = [Monitor2Top]
+  GridLeft      = [Monitor2Left]
+  GridBottom    = [Monitor2Bottom]
+  GridRight     = [Monitor2Left] + [Monitor2Width]/2
+ 
+[5]
+ 
+  TriggerTop    = [Monitor2Top] + [Monitor2Height]/3
+  TriggerLeft   = [Monitor2Left] + [Monitor2Width]/3
+  TriggerBottom = [Monitor2Top] + [Monitor2Height]*2/3
+  TriggerRight  = [Monitor2Left] + [Monitor2Width]*2/3
+  GridTop       = Restore
+  GridLeft      = Restore
+  GridBottom    = Restore
+  GridRight     = Restore
+ 
+[6]
+ 
+  TriggerTop    = [Monitor2Top] + [Monitor2Height]/3
+  TriggerLeft   = [Monitor2Left] + [Monitor2Width]*2/3
+  TriggerBottom = [Monitor2Top] + [Monitor2Height]*2/3
+  TriggerRight  = [Monitor2Right]
+  GridTop       = [Monitor2Top]
+  GridLeft      = [Monitor2Left] + [Monitor2Width]/2
+  GridBottom    = [Monitor2Bottom]
+  GridRight     = [Monitor2Right]
+
+[7]
+ 
+  TriggerTop    = [Monitor2Top]
+  TriggerLeft   = [Monitor2Left]
+  TriggerBottom = [Monitor2Top] + [Monitor2Height]/3
+  TriggerRight  = [Monitor2Left] + [Monitor2Width]/3
+  GridTop       = [Monitor2Top]
+  GridLeft      = [Monitor2Left]
+  GridBottom    = [Monitor2Top] + [Monitor2Height]/2
+  GridRight     = [Monitor2Left] + [Monitor2Width]/2
+
+[8]
+ 
+  TriggerTop    = [Monitor2Top]
+  TriggerLeft   = [Monitor2Left] + [Monitor2Width]/3
+  TriggerBottom = [Monitor2Top] + [Monitor2Height]/3
+  TriggerRight  = [Monitor2Left] + [Monitor2Width]*2/3
+  GridTop       = [Monitor2Top]
+  GridLeft      = [Monitor2Left]
+  GridBottom    = [Monitor2Top]+[Monitor2Height]/2
+  GridRight     = [Monitor2Right]
+
+[9]
+ 
+  TriggerTop    = [Monitor2Top]
+  TriggerLeft   = [Monitor2Left] + [Monitor2Width]*2/3
+  TriggerBottom = [Monitor2Top] + [Monitor2Height]/3
+  TriggerRight  = [Monitor2Right]
+  GridTop       = [Monitor2Top]
+  GridLeft      = [Monitor2Left] + [Monitor2Width]/2
+  GridBottom    = [Monitor2Top]+[Monitor2Height]/2
+  GridRight     = [Monitor2Right]
+
+[10]
+
+  TriggerTop    = [MonitorReal2Top]
+  TriggerLeft   = [Monitor2Left]
+  TriggerBottom = [MonitorReal2Top] + [Monitor2Height]/60
+  TriggerRight  = [Monitor2Right]
+  GridTop       = Maximize
+  GridLeft      = Maximize
+  GridBottom    = Maximize
+  GridRight     = Maximize
